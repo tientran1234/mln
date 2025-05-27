@@ -7,42 +7,52 @@ export const exploreWorlds = [
 ]
 
 export const startingFeatures = [
-   "Find a world that suits you and you want to enter",
-   "Enter the world by reading basmalah to be safe",
-   "No need to beat around the bush, just stay on the gas and have fun",
+   "Đảng Cộng sản là đội tiên phong của giai cấp công nhân và dân tộc.",
+   "Lãnh đạo bằng đường lối đúng đắn, bằng gương mẫu và uy tín, không áp đặt hay mệnh lệnh hành chính.",
+   "Người từng nói: Đảng không phải là tổ chức để làm quan phát tài mà là để phục vụ nhân dân, làm đầy tớ cho dân.",
+]
+export const startingFeatures2 = [
+   "Nhà nước là tổ chức quyền lực do nhân dân lập ra, phục vụ lợi ích của toàn dân.",
+   "Là Nhà nước của dân, do dân và vì dân",
+   "Của dân: Nhân dân là chủ sở hữu thực sự của Nhà nước.", "Do dân: Nhân dân lập ra, bầu ra các cơ quan quyền lực.", "Vì dân: Mọi hoạt động nhằm nâng cao đời sống vật chất, tinh thần cho nhân dân."
 ]
 
 export const newFeatures = [
    {
       imgUrl: "/vrpano.svg",
-      title: "A new world",
-      subtitle: "we have the latest update with new world for you to try never mind",
+      title: "Nhân dân",
+      subtitle: "có vai trò quyết định thành bại của cách mạng.",
    },
    {
       imgUrl: "/headset.svg",
-      title: "More realistic",
-      subtitle: "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      title: "Đảng và Nhà nước",
+      subtitle: "phải xuất phát từ lợi ích, nguyện vọng của nhân dân.",
+   },
+   {
+      imgUrl: "/search.svg",
+      title: "Người khẳng định",
+      subtitle: "Gốc có vững cây mới bền, xây lầu thắng lợi trên nền nhân dân.",
    },
 ]
 
 export const insights = [
    {
       imgUrl: "/planet-06.png",
-      title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+      title: "Các mô hình chính quyền điện tử, một cửa liên thông đang được đẩy mạnh.",
       subtitle:
-         "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+         "",
    },
    {
       imgUrl: "/planet-07.png",
-      title: "7 tips to easily master the madness of the Metaverse",
+      title: "Nhiều địa phương tổ chức “Ngày thứ Bảy lắng nghe dân nói”.",
       subtitle:
-         "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+         "",
    },
    {
       imgUrl: "/planet-08.png",
-      title: "With one platform you can explore the whole world virtually",
+      title: "Thực tiễn vẫn còn nhiều nơi “xa dân, nhũng nhiễu” → cần kiên quyết xử lý sai phạm.",
       subtitle:
-         "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+         "",
    },
 ]
 

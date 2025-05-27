@@ -1,41 +1,84 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
-import { staggerContainer, fadeIn } from "@/utils/motion"
-import { TitleText, TypingText } from "@/components"
+import { staggerContainer, fadeIn } from "@/utils/motion";
+import { TitleText, TypingText } from "@/components";
+import Image from "next/image";
+import anh6 from "@/public/anh6.png";
+import anh7 from "@/public/anh7.png";
+import anh8 from "@/public/anh8.png";
+import anh9 from "@/public/anh9.png";
+import anh10 from "@/public/anh10.png";
 
 export default function Worlds() {
-   return (
-      <section className={`paddings relative z-10`}>
-         <motion.div
-            variants={staggerContainer()}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.25 }}
-            className={`inner-width mx-auto flex flex-col`}>
-            <TypingText title={"| People on the world"} textStyles={"text-center"} />
-            <TitleText
-               title={<>Track friends around you and invite them to play together in the same world</>}
-               textStyles={"text-center"}
-            />
-
-            <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="relative mt-[68px] flex w-full h-[550px]">
-               <img src="/map.png" alt="map" className="object-cover w-full h-full" />
-
-               <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-                  <img src="/people-01.png" alt="people 1" className="object-cover w-full h-full" />
-               </div>
-
-               <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-                  <img src="/people-02.png" alt="people 2" className="object-cover w-full h-full" />
-               </div>
-
-               <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-                  <img src="/people-03.png" alt="people 2" className="object-cover w-full h-full" />
-               </div>
-            </motion.div>
-         </motion.div>
-      </section>
-   )
+  return (
+    <section className={`paddings relative z-10`}>
+      <motion.div
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.25 }}
+        className={`inner-width mx-auto flex flex-col`}
+      >
+        <TitleText
+          title={
+            <>
+              III. Vận dụng tư tưởng vào việc xây dựng chính quyền gần dân, thân
+              dân
+            </>
+          }
+          textStyles={"text-center"}
+        />
+        <TypingText
+          title={"1. Thực hiện dân chủ thực chất, không hình thức"}
+          textStyles={"text-center"}
+        />
+        <motion.div
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="relative mt-[68px] flex w-full h-[550px] justify-center"
+        >
+          <Image src={anh6} alt="" />
+        </motion.div>
+        <TypingText
+          title={"2. Cải cách hành chính, giảm phiền hà cho dân"}
+          textStyles={"text-center"}
+        />
+        <motion.div
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="relative mt-[68px] flex w-full h-[550px] justify-center"
+        >
+          <Image src={anh7} alt="" />
+        </motion.div>
+        <TypingText
+          title={
+            " 3. Rèn luyện cán bộ, công chức theo chuẩn mực đạo đức cách mạng"
+          }
+          textStyles={"text-center"}
+        />
+        <motion.div
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="relative mt-[68px] flex w-full h-[650px] justify-center"
+        >
+          <Image src={anh8} alt="" />
+        </motion.div>
+        <TypingText
+          title={"4. Tăng cường giám sát của nhân dân đối với chính quyền"}
+          textStyles={"text-center"}
+        />
+        <motion.div
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="relative mt-[68px] flex w-full h-[750px] justify-center"
+        >
+          <Image src={anh9} alt="" />
+        </motion.div>
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", "tween", 0.3, 1)}
+        className="relative mt-[68px] flex w-full h-[750px] justify-center"
+      >
+        <Image src={anh10} alt="" />
+      </motion.div>
+    </section>
+  );
 }
