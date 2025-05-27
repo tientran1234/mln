@@ -40,7 +40,7 @@ export default function GetStarted() {
         </motion.div>
 
         <motion.div
-          variants={fadeIn("left", "tween", 1, 1)}
+          variants={fadeIn("left", "tween", 0.3, 1)}
           className="flex-[0.75] flex justify-center flex-col"
         >
           <TypingText
@@ -66,14 +66,14 @@ export default function GetStarted() {
           className={`flex-1 flex-center`}
         >
           <Image
-            src={anh2}
+            src={anh3}
             alt="get-started"
             className="w-[90%] h-[90%] object-contain"
           />
         </motion.div>
 
         <motion.div
-          variants={fadeIn("left", "tween", 1, 1)}
+          variants={fadeIn("left", "tween", 0.3, 1)}
           className="flex-[0.75] flex justify-center flex-col"
         >
           <TypingText title={"2. Nhà nước là công cụ của nhân dân"} />

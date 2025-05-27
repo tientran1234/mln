@@ -22,7 +22,11 @@ export default function Hero() {
             <h1 className={"hero-heading"}>HCM202</h1>
           </motion.div>
         </div>
-
+        <p className="relative z-10 text-white text-5xl top-56 px-20">
+          Vận dụng tư tưởng Hồ Chí Minh về mối quan hệ giữa Đảng, Nhà nước và
+          nhân dân. Liên hệ vào việc xây dựng chính quyền gần dân, thân dân và
+          Nhà nước của dân, do dân, vì dân
+        </p>
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
           className="relative w-full md:-mt-[20px] -mt-[12px]"
